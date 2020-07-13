@@ -1,0 +1,2 @@
+フォルダの全ファイルの名前を取得
+for /f "delims=" %i in ('dir /b E:\E\2.0D\FRUTES\') do @(echo %~ni)>>C:\Users\USER\Downloads\output.txt
